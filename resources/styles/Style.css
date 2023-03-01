@@ -21,6 +21,9 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--black);
+    max-width: 1500px;
+    margin: auto;
+
 }
 
 nav {
