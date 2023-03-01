@@ -217,7 +217,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height: 100px;
+    padding: 10px;
     background-color: var(--pink);
     margin-top: 50px;
 
