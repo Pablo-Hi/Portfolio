@@ -5,7 +5,7 @@
 
 .project-description-container{
     padding: 0 20px;
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
 }
 
@@ -28,5 +28,6 @@
 
     .rick-morty-project-logo{
         display: flex;
+        height: 400px;
     }
 }
