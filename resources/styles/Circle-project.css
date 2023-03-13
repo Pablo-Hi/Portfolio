@@ -12,7 +12,7 @@
 }
 
 .container-one{
-    width: 50%;
+    width: 100%;
 }
 
 .project-description-title{
@@ -49,6 +49,10 @@
 @media only screen and (min-width: 768px) {}
 
 @media only screen and (min-width: 1024px) {
+
+    .container-one{
+        width: 50%;
+    }
 
     .container-two{
         display: flex;
