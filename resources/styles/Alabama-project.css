@@ -13,7 +13,7 @@
 }
 
 .project-description-title{
-    margin-top: 20px;
+    margin-top: 0;
 }
 
 .text-description{
@@ -25,16 +25,39 @@
     display: none;
 }
 
-.alabama-pic{
-    width: 100%;
-    margin-top: 30px;
+.button {
+    margin: 40px 0;
+    background-color: var(--lleyow);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
-.alabama-web-pics{
+.button a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.carrusel{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 20px;
+    flex-wrap: nowrap;
+    overflow: scroll;
+}
+
+.elemento{
+    flex: 1 0 auto;
+    margin: 0 20px;
+    background-color: red;
+    width: 350px;
+    height: 300px;
 }
 
 @media only screen and (min-width: 768px) {}
@@ -44,4 +67,17 @@
     .alabama-project-logo{
         display: flex;
     }
+
+    .elemento{
+        flex: 1 0 auto;
+        margin: 0 20px;
+        background-color: red;
+        width: 750px;
+        height: 600px;
+    }
+
+    .button:hover{
+        background-color: var(--pink);
+    }
+
 }
