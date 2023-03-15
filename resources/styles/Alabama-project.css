@@ -25,31 +25,11 @@
     display: none;
 }
 
-.button {
-    margin: 40px 0;
-    background-color: var(--lleyow);
-    border: none;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 20px;
-    font-weight: 400;
-    border-radius: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
-.button a {
-    text-decoration: none;
-    color: var(--black);
-}
-
 .carrusel{
     display: flex;
     flex-wrap: nowrap;
     overflow: scroll;
+    margin-bottom: 30px;
 }
 
 .elemento{
@@ -58,6 +38,13 @@
     background-color: red;
     width: 350px;
     height: 300px;
+}
+
+.button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 @media only screen and (min-width: 768px) {}
@@ -80,4 +67,5 @@
         background-color: var(--pink);
     }
 
+ 
 }
