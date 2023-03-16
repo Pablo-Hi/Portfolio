@@ -54,6 +54,8 @@ nav {
     width: 100px;
 }
 
+/* MENÚ HAMBURGUESA */
+
 .bars__menu {
     width: 30px;
     height: 30px;
@@ -86,6 +88,8 @@ nav {
     ;
 }
 
+/* MENU DESPLEGABLE */
+
 .drop_down_menu_container ul {
     display: none;
 }
@@ -114,6 +118,55 @@ nav {
     font-size: large;
 }
 
+/* TITULO CON NOMBRE Y PROFESIÓN */
+
+.tittle-name{
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.under-name{
+    text-align: center;
+    margin-bottom: 10vw;
+}
+
+/* SLIDER DE LOGOS TECH */
+
+.slider{
+    width: 100vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider .slide-track{
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(200px * 20);
+}
+
+.slider .slide{
+    width: 90px;
+}
+
+.slider .slide img{
+    width: 100%;
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translatex(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-200px * 5));
+        transform: translateX(calc(-200px * 5));
+    }
+}
+
+/* IMGAGEN DE PORTADA */
+
 header {
     color: var(--darkGray);
     width: 100%;
@@ -122,7 +175,10 @@ header {
     background-size: cover;
     background-position: center;
     text-align: center;
+    margin: 10vw 0;
 }
+
+/* ABOUT ME SECTION */
 
 .about-me-desktop {
     display: none;
@@ -145,11 +201,13 @@ header {
     margin-top: 30px;
 }
 
+/* PROJETS SECTION */
+
 .projects {
     color: var(--white);
     padding: 0 20px;
     text-align: justify;
-    margin-top: 40px;
+    margin-top: 10vw;
     font-size: x-large
 }
 
@@ -313,5 +371,28 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+    }
+
+    .slider{
+        width: 100%;
+    }
+    
+    .slider .slide-track{
+        display: flex;
+        animation: none;
+        -webkit-animation: none;
+        width: 100%;
+        justify-content: space-evenly
+    }
+    
+    .slider .slide{
+        width: 90px;
+    }
+    
+    .slider .slide img{
+        width: 100%;
+    }
+    .repetition{
+        display: none;
     }
 }
