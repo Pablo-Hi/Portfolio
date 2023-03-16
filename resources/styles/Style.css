@@ -141,13 +141,13 @@ nav {
 
 .slider .slide-track{
     display: flex;
-    animation: scroll 40s linear infinite;
-    -webkit-animation: scroll 40s linear infinite;
-    width: calc(200px * 10);
+    animation: scroll 30s linear infinite;
+    -webkit-animation: scroll 30s linear infinite;
+    width: calc(300px * 15);
 }
 
 .slider .slide{
-    width: 90px;
+    width: 100px;
 }
 
 .slider .slide img{
@@ -294,7 +294,30 @@ footer {
 }
 
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    .slider{
+        width: 100%;
+    }
+    
+    .slider .slide-track{
+        display: flex;
+        animation: none;
+        -webkit-animation: none;
+        width: 100%;
+        justify-content: space-evenly
+    }
+    
+    .slider .slide{
+        width: 90px;
+    }
+    
+    .slider .slide img{
+        width: 100%;
+    }
+    .repetition{
+        display: none;
+    }
+}
 
 @media only screen and (min-width: 1024px) {
 
