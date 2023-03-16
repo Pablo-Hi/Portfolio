@@ -253,11 +253,13 @@ header {
     color: var(--black);
 }
 
+/* CONTACT SECTION */
+
 .contact {
     color: var(--white);
     padding: 0 20px;
     text-align: justify;
-    margin-top: 50px;
+    margin-top: 10vw;
 }
 
 .contact-logos {
